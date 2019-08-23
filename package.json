@@ -1,0 +1,9 @@
+{
+  "name": "glitchnow",
+  "version": "0.1.0",
+  "author": "Cedric Kim <hello@cedric.today> (https://cedric.today/)",
+  "license": "MIT",
+  "devDependencies": {
+    "now-client": "^5.1.0"
+  }
+}
