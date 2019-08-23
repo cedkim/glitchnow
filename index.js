@@ -1,3 +1,4 @@
+const {createDeployment} = require('now-client');
 let deployment;
 for await (const event of createDeployment(process.env.PUBLICDIR, {token: process.env.TOKEN})) {
   if (event.type === 'ready') {
